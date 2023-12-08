@@ -1,0 +1,168 @@
+.hero {
+  background-color: #1f2937;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 150px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding-left: 150px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: space-between;
+}
+
+.text,
+h3 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-left: 150px;
+  padding-bottom: 10px;
+}
+
+.text,
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-left: 150px;
+}
+
+.btn-1 {
+  margin-left: 150px;
+  border-radius: 5px;
+  color: white;
+  background-color: #3882f2;
+  margin-bottom: 150px;
+  border: none;
+}
+
+#header-img {
+  width: 400px;
+  height: 250px;
+  padding-left: 400px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+
+.info-p {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  margin-right: 100px;
+  padding-bottom: 100px;
+}
+
+#img-1 {
+  padding-left: 100px;
+  margin-left: 200px;
+}
+
+#img-2 {
+  padding-left: 50px;
+}
+
+#img-3 {
+  padding-left: 50px;
+}
+
+#img-4 {
+  padding-left: 50px;
+}
+@media only screen and (max-device-width: 600px) {
+  .header {
+    overflow: wrap;
+    margin-left: 50px;
+  }
+
+  .text,
+  h3 {
+    font-size: 24px;
+  }
+}
+
+#quote {
+  background-color: #e5e7eb;
+ padding: 100px 200px 100px 150px;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.author {
+  font-size: 35px;
+  color: #1f2937;
+  text-align: end;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #3882f2;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.head {
+  font-size: 25px;
+  padding-left: 150px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+.card-p {
+  margin-top: 0;
+}
+
+.btn-2 {
+  background-color: #3882f2;
+  border-radius: 3px;
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  left: 80%;
+  bottom: -130%;
+  z-index: 1;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
